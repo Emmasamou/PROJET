@@ -1,0 +1,55 @@
+:root
+{
+    --color1: rgb(238, 106, 106);
+    --color2:rgb(34, 34, 2);
+}
+.carousel
+{
+    margin-top: 3.5rem;
+}
+body
+{
+    background: linear-gradient(to left, #7b4397, #dc2430);
+    margin: 0;
+}
+#drop:hover
+{
+    text-decoration: overline;
+    background-color: rgba(0, 206, 209, 0.247);
+    transform: scale(1.05);
+    transition: 0.8s;
+    border-radius: 180px;
+    display: block;
+}
+ul li:hover
+{
+    text-decoration: overline;
+    color: #dc2430;
+    background-color: rgba(0, 206, 209, 0.247);
+    transform: scale(1.05);
+    transition: 0.8s;
+}
+.search input
+{
+    text-align: center;
+    color: var(--color1);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#search:active
+{
+    transform: scale(1.05);
+    background-color: darkgoldenrod;
+}
+input[type="search"]:focus
+{
+    background: transparent;
+    border-radius: 150rem;
+}
+input[type="search"]::placeholder
+{
+    color: var(--color2);
+}
+.image
+{
+    height: auto;
+}
