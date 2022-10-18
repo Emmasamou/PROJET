@@ -3,14 +3,15 @@
     --color1: rgb(238, 106, 106);
     --color2:rgb(34, 34, 2);
 }
-.carousel
-{
-    margin-top: 3.5rem;
-}
+
 body
 {
-    background: linear-gradient(to left, #7b4397, #dc2430);
     margin: 0;
+}
+header
+{
+    background:url('/bg-pattern.png'), linear-gradient(to left, #051679, #8f7777);
+    height:100%;
 }
 #drop:hover
 {
@@ -49,7 +50,84 @@ input[type="search"]::placeholder
 {
     color: var(--color2);
 }
-.image
+.imagev
 {
-    height: auto;
+    margin-bottom: 2rem;
+}
+.imagev1
+{
+    margin-top: 2rem;
+}
+.textv
+{
+    text-align: justify;
+    text-align: center;
+}
+.textvv
+{
+    text-align: justify;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.voiturev
+{
+    margin-top: 3.5rem;
+}
+input[type="button"]
+{
+    background: transparent;
+    transition: 0.3s;
+}
+input[type="button"]:active
+{
+    background: rgb(243, 243, 238);
+    transform: scale(1.08);
+}
+.voirPlus
+{ 
+    text-align: center;
+    transition: 0.8s;  
+    display: block;
+}
+.voirPlus:hover
+{ 
+    transform: scale(1.01);
+    transition: 0.8s;  
+    display: block;
+}
+.text
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    margin-top: 3rem;
+    color: wheat;
+    text-align: center;
+}
+
+.textp
+{
+    margin-top: 0.3rem;
+    background-color: rgb(243, 240, 237);
+}
+.portable
+{
+    margin-top: 1rem;
+}
+.iphone
+{
+   height: 40rem;
+   width: 100%;
+}
+.card
+{
+    border-radius: 180px;
+}
+#contact
+{
+    background: rgb(0, 0, 0);
+}
+.contact
+{
+    color: antiquewhite;
+    transition: all 1s;
 }
